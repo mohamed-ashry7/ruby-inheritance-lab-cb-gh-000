@@ -3,8 +3,9 @@ class Student < User
 
   def initialize(knowledge)
     @knowledge = knowledge
-  end 
+  end
   def learn (str)
-    @knowledge << str 
+    @knowledge << str
+  end 
 
 end
